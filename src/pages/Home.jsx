@@ -52,9 +52,14 @@ const HomePage = () => {
 
           {/* Buttons */}
           <div className="hidden lg:flex space-x-4">
-            <button className="btn btn-outline-light px-4 py-2">Login</button>
-            <button className="btn btn-light text-primary px-4 py-2">Sign Up</button>
+          <Link to="/login">
+        <button className="btn btn-outline-light px-4 py-2">Login</button>
+      </Link>
+      <Link to="/signup">
+        <button className="btn btn-light text-primary px-4 py-2">Sign Up</button>
+      </Link> 
           </div>
+
 
           {/* Mobile Menu Button */}
           <button
