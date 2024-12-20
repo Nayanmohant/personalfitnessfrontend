@@ -11,7 +11,6 @@ function Signup() {
   
 
   const [fitnessgoals, fitnessgoalschange] = useState("");
-
   const [password, passwordchange] = useState("");
 
   const handlesubmit = async (e) => {
