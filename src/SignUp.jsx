@@ -21,7 +21,7 @@ function Signup() {
 
     try {
       // Send a POST request to the backend
-      const response = await fetch('http://localhost:4500/users', {
+      const response = await fetch('https://personalfitnessserver.onrender.com/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

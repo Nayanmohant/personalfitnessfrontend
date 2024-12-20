@@ -77,7 +77,7 @@ const HomePage = () => {
         {/* Mobile Navigation Menu */}
         <div
           id="mobile-menu"
-          className="absolute top-20 left-0 w-full bg-primary text-white hidden flex-col space-y-4 p-4 lg:hidden"
+          className="absolute top-20 left-0 w-full  text-white hidden flex-col space-y-4 p-4 lg:hidden"
         >
           <a href="#home" className="block text-white text-decoration-none">
             Home
@@ -118,12 +118,12 @@ const HomePage = () => {
 
       {/* Features Section */}
       <div className="container mt-5"id="features">
-        <h2 className="text-center mb-4 text-secondary">Our Features</h2>
+        <h2 className="text-center mb-4 text-primary">Our Features</h2>
         <div className="row">
           {/* Feature 1 */}
-          <div className="col-md-4 mb-4">
+          <div className="col-md-6 mb-4 ">
             <div className="card text-center border-primary shadow-sm">
-              <div className="card-body">
+              <div className="card-body p-5">
                 <h5 className="card-title text-primary font-weight-bold">
                   Workout Tracking
                 </h5>
@@ -138,9 +138,9 @@ const HomePage = () => {
             </div>
           </div>
           {/* Feature 2 */}
-          <div className="col-md-4 mb-4">
+          <div className="col-md-6 mb-4">
             <div className="card text-center border-primary shadow-sm">
-              <div className="card-body">
+              <div className="card-body p-5">
                 <h5 className="card-title text-primary font-weight-bold">
                   Progress Monitoring
                 </h5>
@@ -154,21 +154,7 @@ const HomePage = () => {
             </div>
           </div>
           {/* Feature 3 */}
-          <div className="col-md-4 mb-4">
-            <div className="card text-center border-primary shadow-sm">
-              <div className="card-body">
-                <h5 className="card-title text-primary font-weight-bold">
-                  Nutrition Tracking
-                </h5>
-                <p className="card-text">
-                  Log your meals, track nutrition, and get diet recommendations.
-                </p>
-                <Link to="/profile" className="btn btn-outline-primary">
-                  Track Nutrition
-                </Link>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
 
@@ -177,7 +163,7 @@ const HomePage = () => {
       {/* About Section */}
       <section id="about" className="bg-light py-5">
         <div className="container text-center">
-          <h2>About Us</h2>
+          <h2 className='text-primary'>About Us</h2>
           <p className="lead mt-3">
             We are passionate about helping you achieve your fitness goals. Whether it's weight loss, strength training, or overall health, FitnessPro has you covered.
           </p>
@@ -187,7 +173,7 @@ const HomePage = () => {
       {/* Contact Section */}
       <section id="contact" className="bg-light py-5">
         <div className="container text-center">
-          <h2>Contact Us</h2>
+          <h2 className='text-primary'>Contact Us</h2>
           <p className="lead mt-3">We'd love to hear from you! Whether you have questions or need support, feel free to get in touch with us.</p>
 
           <form className="mt-4 shadow">
