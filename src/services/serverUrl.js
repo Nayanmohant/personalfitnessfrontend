@@ -1,1 +1,1 @@
-export const serverUrl = 'https://personalfitnessserver.onrender.com/'
+export const serverUrl = 'https://personalfitnessserver.onrender.com'
